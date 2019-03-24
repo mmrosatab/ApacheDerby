@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Mar 24 17:50:44 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0169-b178-47ed-0000036106b8 
+on database directory /home/mmrosa/MEGA/MEGAsync/CursosOnline/Ensino/workspace/TesteBD/MyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1de0aca6 
+Loaded from file:/home/mmrosa/MEGA/MEGAsync/CursosOnline/Ensino/workspace/TesteBD/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=10.0.2+13
+user.dir=/home/mmrosa/MEGA/MEGAsync/CursosOnline/Ensino/workspace/TesteBD
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-38-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

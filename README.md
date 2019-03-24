@@ -4,18 +4,27 @@ Este repositório é destinado ao estudo do Apache Derby - Gerenciador de banco 
 Download Derby Versão 10.14.2.0
 https://db.apache.org/derby/releases/release-10.14.2.0.cgi
 
-# Instalando e configurando Apache Derby para uso externo(Apache Derby DB no Eclipse)
+# Instalando e configurando Apache Derby para uso externo (Apache Derby DB no Eclipse)
 
 1 - Baixe a pasta compactada do apache derby e a descompacte (aqui foi usada a versão 10.14.2.0)
+
 2 - Crie um projeto java
+
 3 - Crie uma pasta dentro do projeto java e copie o arquivo Derby.jar que está contido na pasta lib dentro da pasta de download do Apache Derby
-4 - Para adicionar uma nova definicação de driver vá em: Window->Preferences->Data Management->Connectivity->DriverDefinitions. Clique em add, 
-em Database escolha Derby Embedded JDBC Driver (versão 10.2) .  Em Jar List clique me Add Jar e selecione o caminho onde o Derby.jar esta em seu projeto java. Em Properties defina o nome do bando de dados e a senha.
+
+4 - Para adicionar uma nova definicação de driver vá em: Window->Preferences->Data Management->Connectivity->DriverDefinitions. Clique em add, em Database escolha Derby Embedded JDBC Driver (versão 10.2) .  Em Jar List clique me Add Jar e selecione o caminho onde o Derby.jar esta em seu projeto java. Em Properties defina o nome do bando de dados e a senha.
+
 5 - Altere a persctiva para banco de dados indo em Window->Persperctive->Open Perspective->Other->Database Development
-6 - Vá em Database Conections, clique com botão direito do mouse, selecione new, selecione um local/pasta para armazenar o banco, coloque o nome e a senha que você definiu no item 4. Deixe a box de save password ativada, clique em next e depois em finish e aguarde a configuração. Ao finalizar o banco de dados já estará conectado.
+
+6 - Vá em Database Conections, clique com botão direito do mouse, selecione new, selecione um local/pasta para armazenar o banco, coloque o nome e a senha que você definiu no item 4. Deixe a box de save password ativada, clique em next e depois em 
+finish e aguarde a configuração. Ao finalizar o banco de dados já estará conectado.
+
 7 - Retorne para perspectiva Java
+
 8 - Crie outra pasta dentro do projeto java para armazenar um script sql.
+
 9 - Crie um arquivo do tipo sql dentro desta pasta de script criada clicando com o botão direito sobre a pasta, indo em: new -> other -> SQL Development -> SQL File -> next, defina o nome do arquivo com extensao sql (ex: sc.sql), em database server type selecione: Derby_10x, escolha o nome da conexão e o nome do banco de dados que vc definiu nas etapas anteriores e clique em finish.
+
 10 - Retorne a perspectiva Database Development, digite os comandos sql no arquivo de script criado (sc.sql), clique com botão direto sobre a área do arquivo de script sql aberto e selecione a opção execute all. Sua query será executada.
 
 # Utilizando o Apache Derby através da aplicação Java
@@ -25,9 +34,15 @@ em Database escolha Derby Embedded JDBC Driver (versão 10.2) .  Em Jar List cli
 Antes de criar as classes java para o acesso ao bando de dados, sete o classapath
 
 1 - clique com botão direito do mouse em cima da pasta projeto no eclipse e selecione "properties" 
+
 2 - Vá em: resources->java build path-> libraries
+
 3 - Clique em "classpath"
+
 4 - Clique em "add jar's"
+
 5 - Selecione o caminho ate o derby.jar em seu projeto
+
 6 - Clique em "apply e close"
+
 7 - Crie as classes e seja feliz.

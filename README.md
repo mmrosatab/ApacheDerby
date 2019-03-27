@@ -10,7 +10,7 @@ https://db.apache.org/derby/releases/release-10.14.2.0.cgi
 
 2 - Crie um projeto java.
 
-3 - Crie uma pasta dentro do projeto java e copie para esta página o arquivo Derby.jar que está contido na pasta lib dentro da pasta de download do Apache Derby que vocẽ baixou.
+3 - Crie uma pasta dentro do projeto java e copie para esta página o arquivo Derby.jar que está contido na pasta lib dentro da pasta de download do Apache Derby que você baixou.
 
 4 - Para adicionar uma nova definicação de driver vá em: Window->Preferences->Data Management->Connectivity->DriverDefinitions. Clique em add, em Database escolha Derby Embedded JDBC Driver (versão 10.2) .  Em Jar List clique me Add Jar e selecione o caminho onde o Derby.jar esta em seu projeto java. Em Properties defina o nome do bando de dados e a senha.
 

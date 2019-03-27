@@ -47,3 +47,5 @@ Antes de criar as classes java para o acesso ao bando de dados, sete o classapat
 
 7 - Crie as classes e seja feliz.
 
+![screenshot1](https://user-images.githubusercontent.com/9852787/55071332-21c62c80-5067-11e9-8c5a-9a2711c17dc5.png)
+![screenshot2](https://user-images.githubusercontent.com/9852787/55071338-24c11d00-5067-11e9-9ceb-05e57b0deb90.png)

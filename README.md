@@ -46,3 +46,6 @@ Antes de criar as classes java para o acesso ao bando de dados, sete o classapat
 6 - Clique em "apply e close".
 
 7 - Crie as classes e seja feliz.
+
+![alt text](https://github.com/mmrosatab/ApacheDerby/img/screenshot1.png)
+![alt text](https://github.com/mmrosatab/ApacheDerby/img/screenshot2.png)

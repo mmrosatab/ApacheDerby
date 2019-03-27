@@ -27,6 +27,9 @@ finish e aguarde a configuração. Ao finalizar o banco de dados já estará con
 
 10 - Retorne a perspectiva Database Development, digite os comandos sql no arquivo de script criado (sc.sql), clique com botão direto sobre a área do arquivo de script sql aberto e selecione a opção execute all. Sua query será executada.
 
+![derbyscreenshot](https://user-images.githubusercontent.com/9852787/55071764-4242b680-5068-11e9-9e22-b8c52821618d.png)
+
+
 # Utilizando o Apache Derby através da aplicação Java
 
 ** (Vá na perspectiva Database Development e desconecte o banco da dados antes de executar a aplicação caso contrário resultará em erro)

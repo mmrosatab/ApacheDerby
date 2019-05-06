@@ -1,5 +1,6 @@
 # ApacheDerby
-Este repositório é destinado ao estudo do Apache Derby - Gerenciador de banco de dados Java. O repositório contém instruções básicas para a instalação e utilização do Apache Derby no Eclipse e também contém uma pequena aplicação que faz acesso a um banco da dados.
+
+Este repositório se destina ao estudo do Apache Derby, gerenciador de banco de dados Java. O repositório contém instruções básicas para a instalação e utilização do Apache Derby no Eclipse, bem como uma pequena aplicação que faz acesso a um banco da dados.
 
 Download Derby Versão 10.14.2.0
 https://db.apache.org/derby/releases/release-10.14.2.0.cgi

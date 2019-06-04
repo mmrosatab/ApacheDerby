@@ -26,7 +26,7 @@ finish e aguarde a configuração. Ao finalizar o banco de dados já estará con
 
 9 - Crie um arquivo do tipo sql dentro desta pasta de script criada clicando com o botão direito sobre a pasta, indo em: new -> other -> SQL Development -> SQL File -> next, defina o nome do arquivo com extensao sql (ex: sc.sql), em database server type selecione: Derby_10x, escolha o nome da conexão e o nome do banco de dados que vc definiu nas etapas anteriores e clique em finish.
 
-10 - Retorne a perspectiva Database Development, digite os comandos sql no arquivo de script criado (sc.sql), clique com botão direto sobre a área do arquivo de script sql aberto e selecione a opção execute all. Sua query será executada.
+10 - Retorne a perspectiva Database Development, digite os comandos sql no arquivo de script criado (sc.sql), clique com botão direito do mouse sobre a área do arquivo de script sql aberto e selecione a opção execute all. Sua query será executada.
 
 ![derbyscreenshot](https://user-images.githubusercontent.com/9852787/55071764-4242b680-5068-11e9-9e22-b8c52821618d.png)
 
